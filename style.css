@@ -1,0 +1,32 @@
+#answer {
+    width: 99vw;
+    resize: none;
+    border-radius: 0;
+    background-color: white;
+    font-size: 8vw;
+    text-align: center;
+    height: 20vh;
+    line-height: 20vh;
+}
+#question {
+    position: absolute;
+    top: 3vh;
+    text-align: center;
+    font-size: 15vw;
+    width: 99vw;
+}
+#submit {
+    font-size: 5vw;
+    background-color: #c9e8b0;
+    color: white;
+    width: 99.4vw;
+    border: none;
+}
+body > * {
+    left: 0;
+}
+#bottom {
+    position: absolute;
+    bottom: 0.3vh;
+    left: 0.3vw;
+}
