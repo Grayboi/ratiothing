@@ -25,3 +25,9 @@ document.getElementById('submit').addEventListener('click', ()=>{
         pick()
     }, 2000)
 })
+document.getElementById('answer').onkeyup = function(ev){
+    if(ev.keyCode === 13){
+        ev.preventDefault()
+        document.getElementById('submit').click()
+    }
+}
